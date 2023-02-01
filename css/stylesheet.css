@@ -5,3 +5,8 @@ html{
 h1{
     color:#691B1B;
 }
+
+nav{
+    background-color: rgb(110, 115, 24);
+    text-align: center;
+}
