@@ -4,20 +4,15 @@ html{
 
 h1{
     color:#691B1B;
-}
 
-nav{
-    background-color: rgb(110, 115, 24);
-    text-align: center;
 }
-
 .h1font-index{
     font-family: 'Montserrat', sans-serif;
 }
-
 .coursefont{
     font-family: 'Zeyada', 'cursive';
 }
+
 
 .menu{
     list-style-type: none;
@@ -29,7 +24,46 @@ nav{
     padding: 15px;
     display: inline-block;
 }
-footer{
-    background-color: rgb(110, 115, 24);
+
+
+nav{
     text-align: center;
+    grid-area: nav;
+}
+
+footer{
+    text-align: center;
+    grid-area: footer;
+}
+#copyright, #heading{
+    background-color: rgb(110, 115, 24);
+}
+.image{
+    grid-area: image;
+
+}
+.title{
+    grid-area: title;
+
+}
+.p1{
+    grid-area: p1;
+
+}
+.p2{
+    grid-area: p2;
+
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 11fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav nav"
+    "title title"
+    "p1 image"
+    "p2 ."
+    "footer footer";
+    column-gap: 10px;
 }
