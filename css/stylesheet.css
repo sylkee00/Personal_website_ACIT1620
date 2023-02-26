@@ -12,5 +12,24 @@ nav{
 }
 
 .h1font-index{
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coursefont{
+    font-family: 'Zeyada', 'cursive';
+}
+
+.menu{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding: 0;
+}
+.menu li{
+    padding: 15px;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(110, 115, 24);
+    text-align: center;
 }
