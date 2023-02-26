@@ -3,7 +3,7 @@ html{
 }
 
 h1{
-    color:#691B1B;
+    color:white;
 
 }
 .h1font-index{
@@ -25,19 +25,20 @@ h1{
     display: inline-block;
 }
 
-
-nav{
+footer,nav{
     text-align: center;
+    background-color: #505110;
+    color:white;
+}
+
+.nav{
     grid-area: nav;
 }
 
-footer{
-    text-align: center;
+.footer{
     grid-area: footer;
 }
-#copyright, #heading{
-    background-color: rgb(110, 115, 24);
-}
+
 .image{
     grid-area: image;
 
@@ -53,6 +54,12 @@ footer{
 .p2{
     grid-area: p2;
 
+}
+a:link{
+    color:greenyellow;
+}
+a:visited{
+    color:azure;
 }
 
 .grid {
