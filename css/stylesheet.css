@@ -2,9 +2,12 @@ html{
     background-color: #ffe4c4;
 }
 
-h1{
+.nav h1{
     color:white;
 
+}
+h1{
+    color:brown;
 }
 .h1font-index{
     font-family: 'Montserrat', sans-serif;
@@ -28,7 +31,7 @@ h1{
 footer,nav{
     text-align: center;
     background-color: #505110;
-    color:white;
+    color:gold;
 }
 
 .nav{
