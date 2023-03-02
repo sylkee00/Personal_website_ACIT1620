@@ -2,7 +2,7 @@ html{
     background-color: #ffe4c4;
 }
 
-.nav h1{
+nav h1{
     color:white;
 
 }
@@ -11,33 +11,33 @@ h1{
 }
 .h1font-index{
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
 }
 .coursefont{
     font-family: 'Zeyada', 'cursive';
 }
 
-
-.menu{
+ul li {
     list-style-type: none;
-    display:flex;
-    justify-content: center;
-    padding: 0;
+    padding:5px;
 }
-.menu li{
-    padding: 15px;
-}
+
 
 footer,nav{
     text-align: center;
     background-color: #505110;
     color:#FFEF94;
+    margin: 0px;
+}
+footer p {
+    margin: 0px;
 }
 
-.nav{
+.grid nav{
     grid-area: nav;
 }
 
-.footer{
+.grid footer{
     grid-area: footer;
 }
 
@@ -45,7 +45,7 @@ footer,nav{
     grid-area: image;
 
 }
-.title{
+.grid h2{
     grid-area: title;
 
 }
@@ -57,12 +57,6 @@ footer,nav{
     grid-area: p2;
 
 }
-/* a:link{
-    color:greenyellow;
-}
-a:visited{
-    color:azure;
-} */
 
 .grid {
     display:grid;
@@ -75,4 +69,23 @@ a:visited{
     "p2 ."
     "footer footer";
     column-gap: 10px;
+}
+
+.border-bottom li {
+    border-bottom: 1px olive solid;
+}
+
+@media (min-width: 600px){
+    
+    .menu{
+        display:flex;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 0px;
+    }
+
+    .menu li{
+        padding: 15px;
+    }
+
 }
