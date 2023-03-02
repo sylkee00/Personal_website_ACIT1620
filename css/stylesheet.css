@@ -25,13 +25,12 @@ h1{
 }
 .menu li{
     padding: 15px;
-    display: inline-block;
 }
 
 footer,nav{
     text-align: center;
     background-color: #505110;
-    color:gold;
+    color:#FFEF94;
 }
 
 .nav{
@@ -58,12 +57,12 @@ footer,nav{
     grid-area: p2;
 
 }
-a:link{
+/* a:link{
     color:greenyellow;
 }
 a:visited{
     color:azure;
-}
+} */
 
 .grid {
     display:grid;
