@@ -22,6 +22,10 @@ ul li {
     padding:5px;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 
 footer,nav{
     text-align: center;
@@ -74,6 +78,10 @@ footer p {
 .border-bottom li {
     border-bottom: 1px olive solid;
 }
+.border-bottom :last-child {
+    border: none;
+}
+
 
 @media (min-width: 600px){
     
@@ -87,5 +95,34 @@ footer p {
     .menu li{
         padding: 15px;
     }
+
+    .border-bottom li {
+        border-bottom: 2px white solid;
+    }
+
+    .grid1 {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 0.5fr 1fr 1fr;
+        grid-template-areas: 
+        "course ."
+        ". course-description"
+        "semester .";
+        grid-gap: 0px;
+    }
+
+    .grid1 a {
+        grid-area: course;
+    }
+    .semester {
+        grid-area: semester;
+    }
+    .course-description {
+        grid-area: course-description;
+        margin: 0px;
+    }
+
+
+    
 
 }
