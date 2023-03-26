@@ -1,14 +1,10 @@
 html{
     background-color: #ffe4c4;
 }
-
-nav h1{
+header h1{
     color:white;
 
 }
-/* h1{
-    color:brown;
-} */
 .h1font-index{
     font-family: 'Montserrat', sans-serif;
     margin:0px;
@@ -16,18 +12,14 @@ nav h1{
 .coursefont{
     font-family: 'Zeyada', 'cursive';
 }
-
 ul li {
     list-style-type: none;
     padding:5px;
 }
-
 ul {
     padding-inline-start: 0px;
 }
-
-
-footer,nav{
+footer,header{
     text-align: center;
     background-color: #505110;
     color:#FFEF94;
@@ -37,8 +29,8 @@ footer p {
     margin: 0px;
 }
 
-.grid nav{
-    grid-area: nav;
+.grid header{
+    grid-area: header;
 }
 
 .grid footer{
@@ -67,7 +59,7 @@ footer p {
     grid-template-columns: 11fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "nav nav"
+    "header header"
     "title title"
     "p1 image"
     "p2 ."
@@ -86,20 +78,17 @@ footer p {
 @media (min-width: 600px){
     
     .menu{
-        display:flex;
+        display: flex;
         justify-content: center;
         padding: 0;
         margin-bottom: 0px;
     }
-
     .menu li{
         padding: 15px;
     }
-
     .border-bottom li {
         border-bottom: 2px white solid;
     }
-
     .grid1 {
         display:grid;
         grid-template-columns: 1fr 2fr;
@@ -110,7 +99,6 @@ footer p {
         "semester .";
         grid-gap: 0px;
     }
-
     .grid1 a {
         grid-area: course;
     }
@@ -121,8 +109,4 @@ footer p {
         grid-area: course-description;
         margin: 0px;
     }
-
-
-    
-
 }
