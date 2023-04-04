@@ -67,11 +67,15 @@ footer p {
     column-gap: 10px;
 }
 
-.border-bottom li {
+.courseList li {
     border-bottom: 1px olive solid;
 }
-.border-bottom :last-child {
+.courseList :last-child {
     border: none;
+}
+
+#btn {
+    margin: 2%;
 }
 
 
@@ -86,7 +90,7 @@ footer p {
     .menu li{
         padding: 15px;
     }
-    .border-bottom li {
+    .courseList li {
         border-bottom: 2px white solid;
     }
     .grid1 {
