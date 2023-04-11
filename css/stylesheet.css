@@ -1,6 +1,12 @@
 html{
     background-color: #ffe4c4;
 }
+nav a:link {
+     color: #FFEF94;
+}
+nav a:visited {
+     color: white;
+}
 header h1{
     color:white;
 
