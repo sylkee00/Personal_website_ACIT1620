@@ -1,5 +1,14 @@
 html{
     background-color: #ffe4c4;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
 }
 nav a:link {
      color: #FFEF94;
@@ -15,9 +24,6 @@ header h1{
     font-family: 'Montserrat', sans-serif;
     margin:0px;
 }
-.coursefont{
-    font-family: 'Zeyada', 'cursive';
-}
 ul li {
     list-style-type: none;
     padding:5px;
@@ -29,8 +35,8 @@ footer,header{
     text-align: center;
     background-color: #505110;
     color:#FFEF94;
-    margin: 0px;
 }
+
 footer p {
     margin: 0px;
 }
@@ -39,12 +45,9 @@ footer p {
     grid-area: header;
 }
 
-.grid footer{
-    grid-area: footer;
-}
-
 .image{
     grid-area: image;
+    margin: 16px;
 
 }
 .grid h2{
@@ -68,8 +71,7 @@ footer p {
     "header header"
     "title title"
     "p1 image"
-    "p2 ."
-    "footer footer";
+    "p2 .";
     column-gap: 10px;
 }
 
@@ -81,7 +83,12 @@ footer p {
 }
 
 #btn {
-    margin: 2%;
+    margin: 0;
+}
+main~p{
+    text-align: center;
+    margin: 0 0 1% 0;
+    color: #505110;
 }
 
 
