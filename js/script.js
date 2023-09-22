@@ -1,3 +1,4 @@
+
 function createCourseArray() {
   let courseArray = [];
   let courseListItems = document.querySelectorAll('.courseList li');
